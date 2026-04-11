@@ -50,3 +50,44 @@ class Projeto(models.Model):
 
     def __str__(self):
         return self.titulo
+
+class TFC(models.Model):
+    titulo = models.CharField(max_length=200)
+    autores = models.CharField(max_length=200)
+    orientador = models.ForeignKey(Docente, on_delete=models.CASCADE, related_name='tfcs_orientados')
+    sumario = models.TextField()
+    link = models.URLField(null=True, blank=True)
+    classificacao = models.IntegerField(default=0)
+    tecnologias = models.ManyToManyField(Tecnologia, related_name='tfcs')
+
+    def __str__(self):
+        return self.titulo
+
+class Competencia(models.Model):
+    nome = models.CharField(max_length=100)
+    descricao = models.TextField()
+    categoria = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.nome
+
+class Formacao(models.Model):
+    instituicao = models.CharField(max_length=100)
+    nome = models.CharField(max_length=100)
+    data_inicio = models.DateField()
+    data_fim = models.DateField(null=True, blank=True)
+
+    def __str__(self):
+        return self.nome
+
+class MakingOf(models.Model):
+    data = models.DateTimeField(auto_now_add=True)
+    etapa = models.CharField(max_length=100)
+    descricao = models.TextField()  
+    imagem = models.ImageField(upload_to='makingof/', null=True, blank=True)
+    decisoes = models.TextField()
+    erros = models.TextField()
+    uso_ia = models.TextField(blank=True)
+
+    def __str__(self):
+        return self.etapa
