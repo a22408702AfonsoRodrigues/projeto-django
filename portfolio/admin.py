@@ -1,7 +1,8 @@
 from django.contrib import admin
-from .models import Licenciatura, UnidadeCurricular, Docente
+from .models import Licenciatura, UnidadeCurricular, Docente, Tecnologia, Projeto
 
 admin.site.register(Licenciatura)
 admin.site.register(Docente)
 admin.site.register(UnidadeCurricular)
-
+admin.site.register(Tecnologia)
+admin.site.register(Projeto)
