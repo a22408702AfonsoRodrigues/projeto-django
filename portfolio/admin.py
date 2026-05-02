@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Licenciatura, UnidadeCurricular, Docente, Tecnologia, Projeto, TFC, Competencia, Formacao, MakingOf 
+from .models import Licenciatura, UnidadeCurricular, Docente, Tecnologia, Projeto, TFC, Competencia, Formacao, MakingOf
 
 admin.site.register(Licenciatura)
 admin.site.register(Docente)
