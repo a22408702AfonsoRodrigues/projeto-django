@@ -1,0 +1,22 @@
+{% extends "portfolio/base.html" %}
+
+{% block content %}
+<h2>Making Of</h2>
+<section>
+    {% for entrada in entradas %}
+    <article>
+        <header>
+            <h3>{{ entrada.etapa }}</h3>
+            <p>{{ entrada.data }}</p>
+        </header>
+        <section>
+            <p>{{ entrada.descricao }}</p>
+            <h4>Decisões</h4>
+            <p>{{ entrada.decisoes }}</p>
+            <h4>Erros</h4>
+            <p>{{ entrada.erros }}</p>
+        </section>
+    </article>
+    {% endfor %}
+</section>
+{% endblock %}
