@@ -49,12 +49,16 @@
             <h3>Tecnologias Utilizadas</h3>
         </header>
         <section>
+            {% for tipo in tipos %}
+            <h4>{{ tipo.nome }}</h4>
             <ul>
-                <li><strong>Backend:</strong> Django, Python</li>
-                <li><strong>Frontend:</strong> HTML5, CSS</li>
-                <li><strong>Base de Dados:</strong> SQLite</li>
-                <li><strong>Outros:</strong> Git, GitHub, CodeSpaces</li>
+                {% for tec in tipo.tecnologias.all %}
+                    <li>{{ tec.nome }} — {{ tec.descricao }}</li>
+                {% empty %}
+                    <li>Sem tecnologias</li>
+                {% endfor %}
             </ul>
+            {% endfor %}
         </section>
     </article>
 

@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import TFC, Tecnologia, UnidadeCurricular, Projeto, Competencia, Formacao, MakingOf, Licenciatura
+from .models import TFC, Tecnologia, UnidadeCurricular, Projeto, Competencia, Formacao, MakingOf, Licenciatura, TipoTecnologia
 from .forms import ProjetoForm, TecnologiaForm, CompetenciaForm, FormacaoForm
 from django.shortcuts import get_object_or_404, redirect
 
@@ -137,4 +137,5 @@ def formacao_apagar(request, id):
     return render(request, 'portfolio/formacao_confirmar_apagar.html', {'formacao': formacao})
 
 def sobre_view(request):
-    return render(request, 'portfolio/sobre.html')
+    tipos = TipoTecnologia.objects.prefetch_related('tecnologias').all()
+    return render(request, 'portfolio/sobre.html', {'tipos': tipos})
