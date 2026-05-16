@@ -1,0 +1,1701 @@
+[
+{
+  "model": "portfolio.licenciatura",
+  "pk": 1,
+  "fields": {
+    "nome": "Engenharia Informática",
+    "apresentacao": "O curso de licenciatura em Engenharia Informática da Universidade Lusófona forma licenciados capazes de assumir posições de destaque em projetos de engenharia informática ou equipas de desenvolvimento e consultadoria, na área da engenharia dos sistemas de informação, assumindo pela sua formação e atitude papéis relevantes na geração de inovação e riqueza. Nesse sentido, os estudantes obtêm as competências adequadas à conceção, realização e manutenção de sistemas informáticos, programação de aplicações e de sistemas, desenho arquiteturas de computação e comunicações, gestão de sistemas de informação e de conhecimento, assim como à compreensão e resolução dos problemas associados.",
+    "competencias": "O curso de licenciatura em Engenharia Informática da Universidade Lusófona desenvolve perfis com fortes competências tecnológicas e humanas, de forma a potenciar aos seus licenciados um elevado grau de empregabilidade, ou o prosseguimento dos estudos de 2º ciclo com excelentes perspectivas de sucesso. Os licenciados em Eng.ª Informática têm assim a possibilidade de escolher diversas carreiras profissionais:\r\n- Analista Programador \r\n- Consultor na área das TI\r\n- Arquitecto de Soluções\r\n- Arquitecto/Administrador de Redes\r\n\r\nNas seguintes áreas tecnológicas:\r\n- Desenvolvimento de Aplicações Empresariais\r\n- Desenvolvimento de Aplicações Móveis\r\n- Concepção e Gestão de Repositórios de Informação\r\n- Novos Paradigmas da Internet (Cloud Computing, Redes Sociais)\r\n- Gestão de Sistemas Informáticos\r\n- Etc..",
+    "ects": 180
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 1,
+  "fields": {
+    "nome": "Lúcio Studer",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 2,
+  "fields": {
+    "nome": "Pedro Alves",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 3,
+  "fields": {
+    "nome": "João Caldeira",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 4,
+  "fields": {
+    "nome": "Manuel Marques Pita",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 5,
+  "fields": {
+    "nome": "Paulo Guedes, Pedro Perdigão",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 6,
+  "fields": {
+    "nome": "José Rogado",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 7,
+  "fields": {
+    "nome": "João Craveiro",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 8,
+  "fields": {
+    "nome": "Rui Ribeiro",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 9,
+  "fields": {
+    "nome": "Diogo de Andrade, Nuno Fachada",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 10,
+  "fields": {
+    "nome": "Paulo Guedes, Wellington Oliveira",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 11,
+  "fields": {
+    "nome": "João P. Matos-Carvalho, Nuno Fachada",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 12,
+  "fields": {
+    "nome": "Slaviša Tomić, Sérgio Duarte",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 13,
+  "fields": {
+    "nome": "Nuno Maria Carvalho Pereira Fernandes Fachada",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 14,
+  "fields": {
+    "nome": "Nuno Ricardo Mateus Coelho",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 15,
+  "fields": {
+    "nome": "João P. Matos-Carvalho, Sérgio Duarte, Tiago Reis",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 16,
+  "fields": {
+    "nome": "Luís Miguel Campos",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 17,
+  "fields": {
+    "nome": "Jayakody Arachchilage Dushantha Nalin Kumara, Marko Beko",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 18,
+  "fields": {
+    "nome": "Micaela Fonseca, Phil Lopes",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 19,
+  "fields": {
+    "nome": "João P. Matos-Carvalho, Marko Beko, Slaviša Tomić",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 20,
+  "fields": {
+    "nome": "N/A",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 21,
+  "fields": {
+    "nome": "Sofia Fernandes Licenciatura em Ciência de Dados.  2025",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 22,
+  "fields": {
+    "nome": "José Cascais Brás Licenciatura em Engenharia Informática.  2025",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 23,
+  "fields": {
+    "nome": "Bruno Cipriano, Rodrigo Correia Licenciatura em Informática de Gestão.  2025",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 24,
+  "fields": {
+    "nome": "Lúcio Studer, Martim Mourão",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 25,
+  "fields": {
+    "nome": "Rodrigo Correia",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 26,
+  "fields": {
+    "nome": "Maria Silva",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 27,
+  "fields": {
+    "nome": "Bruno Cipriano, Rodrigo Correia Licenciatura em Engenharia Informática.  2025",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 28,
+  "fields": {
+    "nome": "Bruno Saraiva, Pedro Alves",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 29,
+  "fields": {
+    "nome": "Pedro Alves, Sofia Naique",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 30,
+  "fields": {
+    "nome": "Rui Santos Licenciatura em Engenharia Informática.  2025",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 31,
+  "fields": {
+    "nome": "José Cascais Brás",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 32,
+  "fields": {
+    "nome": "Iolanda Velho, Sofia Naique Licenciatura em Ciência de Dados.  2025",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 33,
+  "fields": {
+    "nome": "Daniel Fernandes, João Pedro Carvalho",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 34,
+  "fields": {
+    "nome": "Fernando Angelino Licenciatura em Informática de Gestão.  2025",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 35,
+  "fields": {
+    "nome": "Daniel Silveira Licenciatura em Engenharia Informática.  2025",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 36,
+  "fields": {
+    "nome": "Lúcio Studer, Martijn Kuipers Licenciatura em Engenharia Informática.  2025",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 37,
+  "fields": {
+    "nome": "Luís Campos",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 38,
+  "fields": {
+    "nome": "Daniel Fernandes, João Pedro Carvalho Licenciatura em Ciência de Dados.  2025",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 39,
+  "fields": {
+    "nome": "Daniel Silveira, Martijn Kuipers Licenciatura em Engenharia Informática.  2025",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 40,
+  "fields": {
+    "nome": "Bruno Saraiva, Zuil Pirola Licenciatura em Engenharia Informática.  2025",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 41,
+  "fields": {
+    "nome": "Luís Gomes Licenciatura em Engenharia Informática.  2025",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 42,
+  "fields": {
+    "nome": "Pedro Perdigão",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 43,
+  "fields": {
+    "nome": "Iolanda Velho, Lúcio Studer",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 44,
+  "fields": {
+    "nome": "Luís Gomes Licenciatura em Informática de Gestão.  2025",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 45,
+  "fields": {
+    "nome": "José Cascais Brás, Rui Ribeiro",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 46,
+  "fields": {
+    "nome": "Lúcio Studer, Martim Mourão Licenciatura em Engenharia Informática.  2025",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 47,
+  "fields": {
+    "nome": "Daniel Silveira, Pedro Serra Licenciatura em Informática de Gestão.  2025",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 48,
+  "fields": {
+    "nome": "Daniel Fernandes, João Pedro Carvalho Licenciatura em Engenharia Informática.  2025",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 49,
+  "fields": {
+    "nome": "Rui Ribeiro Licenciatura em Engenharia Informática.  2025",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 50,
+  "fields": {
+    "nome": "Rui Santos Licenciatura em Informática de Gestão.  2025",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 51,
+  "fields": {
+    "nome": "Houda Harkat, João Pedro Carvalho Licenciatura em Ciência de Dados.  2025",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 52,
+  "fields": {
+    "nome": "Iolanda Velho",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 53,
+  "fields": {
+    "nome": "Luís Miguel Campos Licenciatura em Ciência de Dados.  2025",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 54,
+  "fields": {
+    "nome": "Manuel Marques Pita, Zuil Pirola Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 55,
+  "fields": {
+    "nome": "João Caldeira, Luís Gomes Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 56,
+  "fields": {
+    "nome": "José Cascais Brás Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 57,
+  "fields": {
+    "nome": "Sofia Fernandes Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 58,
+  "fields": {
+    "nome": "Martim Mourão, Sofia Fernades Licenciatura em Ciência de Dados.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 59,
+  "fields": {
+    "nome": "Daniel Fernandes, João Pedro Carvalho Licenciatura em Ciência de Dados.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 60,
+  "fields": {
+    "nome": "Daniel Silveira, Martijn Kuipers Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 61,
+  "fields": {
+    "nome": "Rui Santos",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 62,
+  "fields": {
+    "nome": "Lucio studer, Martim Mourão",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 63,
+  "fields": {
+    "nome": "Duarte Neves Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 64,
+  "fields": {
+    "nome": "Pedro Alves Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 65,
+  "fields": {
+    "nome": "Gabriela Soares, Lúcio Studer Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 66,
+  "fields": {
+    "nome": "Lucio studer, Maria Almeida Silva Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 67,
+  "fields": {
+    "nome": "Pedro Alves, Sofia Naique Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 68,
+  "fields": {
+    "nome": "João Caldeira Licenciatura em Informática de Gestão.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 69,
+  "fields": {
+    "nome": "Rui Ribeiro Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 70,
+  "fields": {
+    "nome": "Iolanda Velho, Sofia Naique",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 71,
+  "fields": {
+    "nome": "Manuel Marques Pita Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 72,
+  "fields": {
+    "nome": "Daniel Silveira Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 73,
+  "fields": {
+    "nome": "Lucio studer, Martijn Kuipers Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 74,
+  "fields": {
+    "nome": "Houda Harkat, João Pedro Carvalho",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 75,
+  "fields": {
+    "nome": "Daniel Fernandes, João P. Matos-Carvalho Licenciatura em Ciência de Dados.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 76,
+  "fields": {
+    "nome": "Daniel Fernandes, João Pedro Carvalho Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 77,
+  "fields": {
+    "nome": "Ana Cruz, Andreas Klaus",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 78,
+  "fields": {
+    "nome": "Luís Gomes Licenciatura em Engenharia Informática. Licenciatura em Informática de Gestão.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 79,
+  "fields": {
+    "nome": "Bruno Saraiva, João Pedro Carvalho",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 80,
+  "fields": {
+    "nome": "Daniel Silveira, João Pavia Licenciatura em Engenharia Informática. Licenciatura em Informática de Gestão.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 81,
+  "fields": {
+    "nome": "Pedro Serra",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 82,
+  "fields": {
+    "nome": "Luis A. Gomes Licenciatura em Informática de Gestão.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 83,
+  "fields": {
+    "nome": "Daniel Silveira, Zuil Pirola Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 84,
+  "fields": {
+    "nome": "Wellington Oliveira Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 85,
+  "fields": {
+    "nome": "Daniel Fernandes, João P. Matos-Carvalho Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 86,
+  "fields": {
+    "nome": "Daniel Fernandes, Gabriela Soares",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 87,
+  "fields": {
+    "nome": "Rui Santos Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 88,
+  "fields": {
+    "nome": "Gabriela Soares, Lúcio Studer",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 89,
+  "fields": {
+    "nome": "Rui Ribeiro Licenciatura em Informática de Gestão.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 90,
+  "fields": {
+    "nome": "Lúcio Studer, Martim Mourão Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 91,
+  "fields": {
+    "nome": "Bruno Cipriano, Rodrigo Correia Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 92,
+  "fields": {
+    "nome": "Lúcio Studer Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 93,
+  "fields": {
+    "nome": "Acácio Carmona, Adriano Couto, Alexandre Banha, Alexandre Pereira, Ana Margarida Gomes Alexandre, Antonios Liapis, António Frazão, António Moreira Gonçalves, Bruno Cipriano, Bruno Saraiva, Bruno Saraiva, Carlos Fernandes, Cipriano Justo, Conceição Costa, Daniel Fernandes, Daniel Fernandes, Daniel Fernandes, Daniel Fernandes, Daniel Silveira, Daniel Silveira, Diogo Morais, Diogo de Andrade, Duarte Neves, Fernando Angelino, Fernando Teodósio, Finite blocklength information theory, Francesco Costigliola, Gabriela Soares, Gabriela Soares, Gabriela Soares, Helena Rute Sofia, Houda Harkat, Inês Oliveira, Iolanda Velho, Jayakody Arachchilage Dushantha Nalin Kumara, José Aser Lourenzo, José Cascais Brás, José Cascais Brás, José Faisca, José Rogado, João Caldeira, João Craveiro, João Ildefonso, João Licínio, João Martins, João P. Matos-Carvalho, João Pavia, João Pedro Carvalho, João Pedro Carvalho, Luis A. Gomes, Luis Campos, Luís Campos, Luís Gomes, Luís Jorge Costa, Luís Miguel Campos, Lúcio Studer, Lúcio Studer, Manuel Costa Martins, Manuel Marques Pita, Manuel da Costa Leite, Maria Silva, Marko Beko, Marko Beko, Martijn Kuipers, Martim Mourão, Micaela Fonseca, Micaela Fonseca, Miguel Moreno, Miguel Tavares, N/A, N/A, Naercio Magaia, Nuno Fachada, Nuno Manuel Garcia dos Santos, Nuno Maria Carvalho Pereira Fernandes Fachada, Nuno Pombo, Nuno Ricardo Mateus Coelho, Paulo Guedes, Paulo Mendes, Pedro Alves, Pedro Alves, Pedro Alves, Pedro Alves, Pedro Freire, Pedro Hugo De Queirós Alves, Pedro Malta, Pedro Perdigão, Pedro Santos, Pedro Serra, Phil Lopes, Phil Lopes, Prof. Dr. Nuno Maria Carvalho Pereira Fernandes Fachada Prof. Dr. João Pedro Leal Abalada de Matos Carvalho, Professor Dushantha Nalin Jayakoddy, Reda Benbernou, Ricardo Oliveira, Rodrigo Correia, Rui Dinis, Rui Ribeiro, Rui Ribeiro, Rui Santos, Sem orientador, Slaviša Tomić, Sofia Fernandes, Sofia Naique, Sérgio Duarte, Sérgio Ferreira, Sérgio Luís Proença Duarte Guerreiro, Sérgio Nunes, Tiago Reis, Tiago Simas, Tiago dos Santos, Vania Machado, Vânia Maria Ponte Vidal, Wellington Oliveira, Zuil Pirola, Zuil Pirola, Zuil Pirola Licenciatura em Informática de Gestão.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 94,
+  "fields": {
+    "nome": "Iolanda Velho, Lúcio Studer Licenciatura em Informática de Gestão.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 95,
+  "fields": {
+    "nome": "Duarte Neves, Pedro Alves",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 96,
+  "fields": {
+    "nome": "José Cascais Brás, Luís Gomes Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 97,
+  "fields": {
+    "nome": "Daniel Silveira, Rui Ribeiro Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 98,
+  "fields": {
+    "nome": "Sérgio Ferreira Licenciatura em Engenharia Informática.  2024",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 99,
+  "fields": {
+    "nome": "Pedro Perdigão, Rui Santos",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 100,
+  "fields": {
+    "nome": "Diogo de Andrade, João P. Matos-Carvalho, Nuno Fachada",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 101,
+  "fields": {
+    "nome": "João Caldeira, Lúcio Studer",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 102,
+  "fields": {
+    "nome": "Nuno Fachada",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 103,
+  "fields": {
+    "nome": "Jayakody Arachchilage Dushantha Nalin Kumara",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 104,
+  "fields": {
+    "nome": "Pedro Hugo De Queirós Alves",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 105,
+  "fields": {
+    "nome": "Marko Beko",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 106,
+  "fields": {
+    "nome": "Marko Beko, Rui Dinis",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 107,
+  "fields": {
+    "nome": "Cristiane Ferreira",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 108,
+  "fields": {
+    "nome": "CRISTINA MARIA RIBEIRO GUERRA",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 109,
+  "fields": {
+    "nome": "JOSÉ ALEXANDRE SILVA PAREDES",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 110,
+  "fields": {
+    "nome": "RUTE MARIA DA SILVA PROENÇA MUCHACHO",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 111,
+  "fields": {
+    "nome": "SERGIO PEDRO MESTRE FERREIRA",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 112,
+  "fields": {
+    "nome": "ANDRE VIEIRA VASSALO DA FONSECA",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 113,
+  "fields": {
+    "nome": "DIOGO SOARES PEREIRA GIL MORAIS",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 114,
+  "fields": {
+    "nome": "RUI RIBEIRO",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 115,
+  "fields": {
+    "nome": "Tomaz Saraiva",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 116,
+  "fields": {
+    "nome": "Paulo Jorge Tavares Guedes",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 117,
+  "fields": {
+    "nome": "Pedro Hugo de Queirós Alves",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 118,
+  "fields": {
+    "nome": "Bruno Miguel Pereira Cipriano",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 119,
+  "fields": {
+    "nome": "Pedro de Almeida Perdigão",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 120,
+  "fields": {
+    "nome": "Herminio Miguel Sobral Tavares",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 121,
+  "fields": {
+    "nome": "Manuel Pita",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 122,
+  "fields": {
+    "nome": "IOLANDA  RAQUEL FERNANDES VELHO",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 123,
+  "fields": {
+    "nome": "Pedro Arroz Correia Bonifácio Serra",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 124,
+  "fields": {
+    "nome": "MARIA JOSÉ DE ALMEIDA E SILVA",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 125,
+  "fields": {
+    "nome": "DANIEL FILIPE SOBRAL FERNANDES",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 126,
+  "fields": {
+    "nome": "SÉRGIO RODRIGUES NUNES",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 127,
+  "fields": {
+    "nome": "LUCIO STUDER FERREIRA",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 128,
+  "fields": {
+    "nome": "JOÃO LICINIO CABRAL DA SILVA",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 129,
+  "fields": {
+    "nome": "Sofia Naique",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 130,
+  "fields": {
+    "nome": "Maria da Conceição Gonçalves Costa",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 131,
+  "fields": {
+    "nome": "Brena Kelly Sousa Lima",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 132,
+  "fields": {
+    "nome": "Daniel Tomás de Maia Mozart Silveira ",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 133,
+  "fields": {
+    "nome": "Bruno D. Ferreira-Saraiva",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 134,
+  "fields": {
+    "nome": "Zuil Pirola",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 135,
+  "fields": {
+    "nome": "Rui Filipe Guimarães dos Santos",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 136,
+  "fields": {
+    "nome": "Ana Vieira dos Santos Cruz",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 137,
+  "fields": {
+    "nome": "Rodrigo Coutinho Correia",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 138,
+  "fields": {
+    "nome": "João Pedro Craveiro",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 139,
+  "fields": {
+    "nome": "Martim Duarte Barja Mourão",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 140,
+  "fields": {
+    "nome": "Berend Willem Martijn Kuipers",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 141,
+  "fields": {
+    "nome": "João Pedro Lavadinho Moreira",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 142,
+  "fields": {
+    "nome": "SOFIA DA SILVA FERNANDES",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 143,
+  "fields": {
+    "nome": "Francisco F. C. Rego",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 144,
+  "fields": {
+    "nome": "Thiago Gustavo Vieira de Paiva",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 145,
+  "fields": {
+    "nome": "RICARDO JORGE SERRAS SANTOS",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 146,
+  "fields": {
+    "nome": "LUIS GOMES",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 147,
+  "fields": {
+    "nome": "Carlos Alberto Teixeira Iglésias",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 148,
+  "fields": {
+    "nome": "Leonardo De Carlo",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 149,
+  "fields": {
+    "nome": "Houda Harkat",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 150,
+  "fields": {
+    "nome": "Duarte Nuno Donas Botto Neves",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 151,
+  "fields": {
+    "nome": "Muratore, Giosuè",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 152,
+  "fields": {
+    "nome": "Marcelo Garcia Domingues",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 153,
+  "fields": {
+    "nome": "Marina Pereira Martins",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 154,
+  "fields": {
+    "nome": "Luís Filipe Duarte Sousa",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 155,
+  "fields": {
+    "nome": "João Pedro Cunha da Silva Eleutério",
+    "biografia": ""
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 1,
+  "fields": {
+    "nome": "Fundamentos de programação",
+    "ano": 1,
+    "semestre": "1º",
+    "ects": 6,
+    "imagem": "",
+    "link": "https://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-7337",
+    "licenciatura": 1,
+    "docentes": [
+      2
+    ]
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 2,
+  "fields": {
+    "nome": "Fundamentos de Física",
+    "ano": 1,
+    "semestre": "Semestral",
+    "ects": 6,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 3,
+  "fields": {
+    "nome": "Fundamentos de Programação",
+    "ano": 1,
+    "semestre": "Semestral",
+    "ects": 6,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 4,
+  "fields": {
+    "nome": "Matemática I",
+    "ano": 1,
+    "semestre": "Semestral",
+    "ects": 6,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 5,
+  "fields": {
+    "nome": "Matemática Discreta",
+    "ano": 1,
+    "semestre": "1º Semestre",
+    "ects": 6,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 6,
+  "fields": {
+    "nome": "Sistemas Digitais",
+    "ano": 1,
+    "semestre": "1º Semestre",
+    "ects": 6,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 7,
+  "fields": {
+    "nome": "Álgebra Linear",
+    "ano": 1,
+    "semestre": "2º Semestre",
+    "ects": 5,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 8,
+  "fields": {
+    "nome": "Algoritmia e Estruturas de Dados",
+    "ano": 1,
+    "semestre": "2º Semestre",
+    "ects": 6,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 9,
+  "fields": {
+    "nome": "Arquitetura de Computadores",
+    "ano": 1,
+    "semestre": "2º Semestre",
+    "ects": 5,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 10,
+  "fields": {
+    "nome": "Competências Comportamentais",
+    "ano": 1,
+    "semestre": "2º Semestre",
+    "ects": 4,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 11,
+  "fields": {
+    "nome": "Linguagens de Programação I",
+    "ano": 1,
+    "semestre": "2º Semestre",
+    "ects": 5,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 12,
+  "fields": {
+    "nome": "Matemática II",
+    "ano": 1,
+    "semestre": "2º Semestre",
+    "ects": 5,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 13,
+  "fields": {
+    "nome": "Arquiteturas Avançadas de Computadores",
+    "ano": 2,
+    "semestre": "1º Semestre",
+    "ects": 5,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 14,
+  "fields": {
+    "nome": "Bases de Dados",
+    "ano": 2,
+    "semestre": "1º Semestre",
+    "ects": 6,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 15,
+  "fields": {
+    "nome": "Desenvolvimento de Interfaces Web",
+    "ano": 2,
+    "semestre": "1º Semestre",
+    "ects": 3,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 16,
+  "fields": {
+    "nome": "Linguagens de Programação II",
+    "ano": 2,
+    "semestre": "1º Semestre",
+    "ects": 6,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 17,
+  "fields": {
+    "nome": "Processamento de Imagem",
+    "ano": 2,
+    "semestre": "1º Semestre",
+    "ects": 4,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 18,
+  "fields": {
+    "nome": "Sistemas Operativos",
+    "ano": 2,
+    "semestre": "1º Semestre",
+    "ects": 6,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 19,
+  "fields": {
+    "nome": "Engenharia de Requisitos e Testes",
+    "ano": 2,
+    "semestre": "2º Semestre",
+    "ects": 6,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 20,
+  "fields": {
+    "nome": "Probabilidades e Estatística",
+    "ano": 2,
+    "semestre": "2º Semestre",
+    "ects": 6,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 21,
+  "fields": {
+    "nome": "Programação Web",
+    "ano": 2,
+    "semestre": "2º Semestre",
+    "ects": 6,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 22,
+  "fields": {
+    "nome": "Redes de Computadores",
+    "ano": 2,
+    "semestre": "2º Semestre",
+    "ects": 6,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 23,
+  "fields": {
+    "nome": "Sistemas de Suporte à Decisão",
+    "ano": 2,
+    "semestre": "2º Semestre",
+    "ects": 6,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 24,
+  "fields": {
+    "nome": "Trabalho Final de Curso",
+    "ano": 3,
+    "semestre": "Anual",
+    "ects": 20,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 25,
+  "fields": {
+    "nome": "Computação Distribuída",
+    "ano": 3,
+    "semestre": "1º Semestre",
+    "ects": 5,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 26,
+  "fields": {
+    "nome": "Data Science",
+    "ano": 3,
+    "semestre": "1º Semestre",
+    "ects": 5,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 27,
+  "fields": {
+    "nome": "Engenharia de Software",
+    "ano": 3,
+    "semestre": "1º Semestre",
+    "ects": 5,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 28,
+  "fields": {
+    "nome": "Interação Humano-Máquina",
+    "ano": 3,
+    "semestre": "1º Semestre",
+    "ects": 5,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 29,
+  "fields": {
+    "nome": "Computação Móvel",
+    "ano": 3,
+    "semestre": "2º Semestre",
+    "ects": 5,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 30,
+  "fields": {
+    "nome": "Inteligência Artificial",
+    "ano": 3,
+    "semestre": "2º Semestre",
+    "ects": 5,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 31,
+  "fields": {
+    "nome": "Segurança Informática",
+    "ano": 3,
+    "semestre": "2º Semestre",
+    "ects": 5,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 32,
+  "fields": {
+    "nome": "Sistemas de Informação na Nuvem",
+    "ano": 3,
+    "semestre": "2º Semestre",
+    "ects": 5,
+    "imagem": "",
+    "link": null,
+    "licenciatura": 1,
+    "docentes": []
+  }
+}

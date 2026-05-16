@@ -120,3 +120,108 @@ footer {
     border-top: 1px solid #334155;
     font-size: 13px;
 }
+
+/* FORMULÁRIOS */
+form {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    padding: 24px;
+    max-width: 700px;
+}
+
+form p {
+    margin-bottom: 16px;
+}
+
+form label {
+    display: block;
+    font-size: 13px;
+    color: #94a3b8;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+form input[type="text"],
+form input[type="url"],
+form input[type="number"],
+form textarea,
+form select {
+    width: 100%;
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 10px 14px;
+    color: #e2e8f0;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+    border-color: #38bdf8;
+}
+
+form select[multiple] {
+    height: 140px;
+}
+
+form button[type="submit"] {
+    background: #38bdf8;
+    color: #0f172a;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+form button[type="submit"]:hover {
+    background: #7dd3fc;
+}
+
+/* BOTÕES DE AÇÃO */
+.acoes {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.btn {
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn-editar {
+    background: #1d4ed8;
+    color: white;
+}
+
+.btn-apagar {
+    background: #dc2626;
+    color: white;
+}
+
+.btn-novo {
+    background: #38bdf8;
+    color: #0f172a;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-novo:hover { background: #7dd3fc; }
+.btn-editar:hover { background: #2563eb; }
+.btn-apagar:hover { background: #ef4444; }

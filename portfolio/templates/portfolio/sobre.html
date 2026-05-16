@@ -1,0 +1,82 @@
+{% extends "portfolio/base.html" %}
+
+{% block content %}
+<h2>Sobre esta Aplicação</h2>
+
+<section>
+    <article>
+        <header>
+            <h3>Arquitetura MVT do Django</h3>
+        </header>
+        <section>
+            <p>O Django segue a arquitetura MVT (Model-View-Template):</p>
+            <ul>
+                <li><strong>Model</strong> -> define a estrutura dos dados e comunica com a base de dados</li>
+                <li><strong>View</strong> —> recebe os pedidos, vai buscar os dados ao Model e envia-os para o Template</li>
+                <li><strong>Template</strong> —> ficheiro HTML que apresenta os dados ao utilizador</li>
+            </ul>
+            <!-- Insere aqui a foto do teu desenho -->
+            <!-- <img src="..." alt="Diagrama MVT"> -->
+
+            <!-- Video tutorial -->
+            <!-- <iframe width="560" height="315" src="URL_DO_VIDEO" frameborder="0"></iframe> -->
+        </section>
+    </article>
+
+    <article>
+        <header>
+            <h3>Modelação</h3>
+        </header>
+        <section>
+            <p>A aplicação foi desenvolvida com os seguintes modelos:</p>
+            <ul>
+                <li>Licenciatura</li>
+                <li>Docente</li>
+                <li>Unidade Curricular</li>
+                <li>Projeto</li>
+                <li>Tecnologia</li>
+                <li>TFC</li>
+                <li>Competência</li>
+                <li>Formação</li>
+                <li>Making Of</li>
+            </ul>
+            <!-- Insere aqui a foto do diagrama ER -->
+        </section>
+    </article>
+
+    <article>
+        <header>
+            <h3>Tecnologias Utilizadas</h3>
+        </header>
+        <section>
+            <ul>
+                <li><strong>Backend:</strong> Django, Python</li>
+                <li><strong>Frontend:</strong> HTML5, CSS</li>
+                <li><strong>Base de Dados:</strong> SQLite</li>
+                <li><strong>Outros:</strong> Git, GitHub, CodeSpaces</li>
+            </ul>
+        </section>
+    </article>
+
+    <article>
+        <header>
+            <h3>Repositório GitHub</h3>
+        </header>
+        <section>
+            <p>O código fonte desta aplicação está disponível no GitHub.</p>
+            <a href=https://github.com/a22408702AfonsoRodrigues/projeto-django target="_blank">Ver repositório</a>
+            <p>O GitHub permite guardar o histórico de alterações e fazer backup do código.</p>
+        </section>
+    </article>
+
+    <article>
+        <header>
+            <h3>Making Of</h3>
+        </header>
+        <section>
+            <p>Esta aplicação foi desenvolvida semana a semana como parte da disciplina de Programação Web.</p>
+            <a href="{% url 'makingof' %}">Ver Making Of completo</a>
+        </section>
+    </article>
+</section>
+{% endblock %}

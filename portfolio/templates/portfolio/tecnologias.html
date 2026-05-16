@@ -3,12 +3,17 @@
 {% block content %}
 <h2>Tecnologias</h2>
 <section>
-    {% for tec in tecnologias %}
+    <a href="{% url 'projeto_criar' %}" class="btn btn-novo">+ Nova tecnologia</a>
+    {% for tecnologia in tecnologias %}
     <article>
         <header>
-            <h3>{{ tec.nome }}</h3>
-            <p>Classificação: {{ tec.classificacao }}</p>
+            <h3>{{ tecnologia.nome }}</h3>
+            <p>Classificação: {{ tecnologia.classificacao }}</p>
         </header>
+        <div class="acoes">
+            <a href="{% url 'tecnologia_editar' tecnologia.id %}" class="btn btn-editar">Editar</a>
+            <a href="{% url 'tecnologia_apagar' tecnologia.id %}" class="btn btn-apagar">Apagar</a>
+        </div>
     </article>
     {% endfor %}
 </section>

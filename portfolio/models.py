@@ -29,11 +29,21 @@ class UnidadeCurricular(models.Model):
     def __str__(self):
         return self.nome
 
+
+class TipoTecnologia(models.Model):
+    nome = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.nome
+
+
 class Tecnologia(models.Model):
     nome = models.CharField(max_length=100)
     logo = models.ImageField(upload_to='tecnologias/', null=True, blank=True)
     link = models.URLField(null=True, blank=True)
     classificacao = models.IntegerField(default=1)
+    tipo = models.ForeignKey(TipoTecnologia, on_delete=models.SET_NULL, null=True, blank=True, related_name='tecnologias')
+    descricao = models.TextField(blank= True)
 
     def __str__(self):
         return self.nome

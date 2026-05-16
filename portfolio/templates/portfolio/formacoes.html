@@ -3,6 +3,8 @@
 {% block content %}
 <h2>Formações</h2>
 <section>
+    <a href="{% url 'projeto_criar' %}" class="btn btn-novo">+ Nova Formacao</a>
+
     {% for formacao in formacoes %}
     <article>
         <header>
@@ -10,6 +12,10 @@
             <p>{{ formacao.instituicao }}</p>
             <p>{{ formacao.data_inicio }} — {{ formacao.data_fim|default:"Presente" }}</p>
         </header>
+        <div class="acoes">
+            <a href="{% url 'formacao_editar' formacao.id %}" class="btn btn-editar">Editar</a>
+            <a href="{% url 'formacao_apagar' formacao.id %}" class="btn btn-apagar">Apagar</a>
+        </div>
     </article>
     {% endfor %}
 </section>
