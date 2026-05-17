@@ -1,0 +1,23 @@
+{% extends "portfolio/base.html" %}
+
+{% block content %}
+<h2>Login</h2>
+
+<form method="post">
+    {% csrf_token %}
+    <p>
+        <label>Username</label>
+        <input type="text" name="username">
+    </p>
+    <p>
+        <label>Password</label>
+        <input type="password" name="password">
+    </p>
+    {% if erro %}
+        <p style="color:red">{{ erro }}</p>
+    {% endif %}
+    <button type="submit">Entrar</button>
+</form>
+
+<a href="{% url 'registo' %}">Não tens conta? Regista-te</a>
+{% endblock %}
