@@ -10,7 +10,7 @@ class Licenciatura(models.Model):
         return self.nome
 
 class Docente(models.Model):
-    nome = models.CharField(max_length=100)
+    nome = models.CharField(max_length=500)
     biografia = models.TextField(blank=True)
 
     def __str__(self):
