@@ -1,0 +1,57 @@
+{% extends "portfolio/base.html" %}
+
+{% block content %}
+<h2>Artigos</h2>
+
+{% if request.user.is_authenticated %}
+    <a href="{% url 'artigo_criar' %}" class="btn btn-novo">+ Novo Artigo</a>
+{% endif %}
+
+<section>
+    {% for artigo in artigos %}
+    <article>
+        <header>
+            <h3>{{ artigo.titulo }}</h3>
+            <p>{{ artigo.autor.username }} — {{ artigo.data_criacao|date:"d/m/Y" }}</p>
+        </header>
+        <section>
+            <p>{{ artigo.texto }}</p>
+            {% if artigo.fotografia %}
+                <img src="{{ artigo.fotografia.url }}" alt="{{ artigo.titulo }}" style="max-width:300px">
+            {% endif %}
+        </section>
+
+        <!-- Likes -->
+        <section>
+            <a href="{% url 'artigo_like' artigo.id %}">👍 {{ artigo.likes.count }}</a>
+        </section>
+
+        <!-- Botões editar/apagar -->
+        {% if request.user == artigo.autor %}
+        <div class="acoes">
+            <a href="{% url 'artigo_editar' artigo.id %}" class="btn btn-editar">Editar</a>
+            <a href="{% url 'artigo_apagar' artigo.id %}" class="btn btn-apagar">Apagar</a>
+        </div>
+        {% endif %}
+
+        <!-- Comentários -->
+        <section>
+            <h4>Comentários</h4>
+            {% for comentario in artigo.comentarios.all %}
+                <p><strong>{{ comentario.autor.username }}</strong>: {{ comentario.texto }}</p>
+            {% empty %}
+                <p>Sem comentários</p>
+            {% endfor %}
+
+            {% if request.user.is_authenticated %}
+            <form method="post" action="{% url 'artigo_comentar' artigo.id %}">
+                {% csrf_token %}
+                <input type="text" name="texto" placeholder="Escreve um comentário...">
+                <button type="submit">Comentar</button>
+            </form>
+            {% endif %}
+        </section>
+    </article>
+    {% endfor %}
+</section>
+{% endblock %}

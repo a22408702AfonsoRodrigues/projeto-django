@@ -1,0 +1,19 @@
+{% extends "portfolio/base.html" %}
+
+{% block content %}
+<h2>Acesso por Link Mágico</h2>
+
+<form method="post">
+    {% csrf_token %}
+    <p>
+        <label>Email</label>
+        <input type="email" name="email">
+    </p>
+    {% if erro %}
+        <p style="color:red">{{ erro }}</p>
+    {% endif %}
+    <button type="submit">Enviar link</button>
+</form>
+
+<a href="{% url 'login' %}">Voltar ao login</a>
+{% endblock %}

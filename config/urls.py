@@ -24,7 +24,8 @@ urlpatterns = [
     path("escola/", include("escola.urls")),
     path("", include("portfolio.urls")),
     path("portfolio/", include("portfolio.urls")),
-    path("accounts/", include("accounts.urls"))
+    path("accounts/", include("accounts.urls")),
+    path("artigos/", include("artigos.urls")),
 ]
 
 from django.conf import settings

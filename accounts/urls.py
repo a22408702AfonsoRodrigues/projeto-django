@@ -5,4 +5,6 @@ urlpatterns = [
     path('login/', views.login_view, name='login'),
     path('logout/', views.logout_view, name='logout'),
     path('registo/', views.registo_view, name='registo'),
+    path('magic-link/', views.magic_link_request, name='magic_link_request'),
+    path('magic-link/<uuid:token>/', views.magic_link_verify, name='magic_link_verify'),
 ]
