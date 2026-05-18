@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    line-height: 1.6;
+}
+
+body > header {
+    background: #1e293b;
+    padding: 20px 40px;
+    border-bottom: 1px solid #334155;
+}
+
+body > header h1 {
+    font-size: 24px;
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+body > header nav a {
+    color: #94a3b8;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+body > header nav a:hover {
+    color: #38bdf8;
+}
+
+main {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 24px;
+    color: #f1f5f9;
+    border-left: 4px solid #38bdf8;
+    padding-left: 12px;
+}
+
+section > article {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 16px;
+    transition: all 0.25s ease;
+}
+
+section > article:hover {
+    transform: translateY(-4px);
+    border-color: #38bdf8;
+    box-shadow: 0 8px 24px rgba(56, 189, 248, 0.1);
+}
+
+article > header h3 {
+    font-size: 18px;
+    color: #f1f5f9;
+    margin-bottom: 4px;
+}
+
+article > header p {
+    font-size: 13px;
+    color: #64748b;
+}
+
+article > section {
+    margin-top: 14px;
+}
+
+article > section h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #475569;
+    margin-bottom: 8px;
+}
+
+article > section p {
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+article > section ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 6px;
+}
+
+article > section ul li {
+    background: #0f172a;
+    border: 1px solid #334155;
+    color: #38bdf8;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+footer {
+    text-align: center;
+    padding: 24px;
+    background: #1e293b;
+    color: #475569;
+    margin-top: 60px;
+    border-top: 1px solid #334155;
+    font-size: 13px;
+}
+
+/* FORMULÁRIOS */
+form {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    padding: 24px;
+    max-width: 700px;
+}
+
+form p {
+    margin-bottom: 16px;
+}
+
+form label {
+    display: block;
+    font-size: 13px;
+    color: #94a3b8;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+form input[type="text"],
+form input[type="url"],
+form input[type="number"],
+form textarea,
+form select {
+    width: 100%;
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 10px 14px;
+    color: #e2e8f0;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+    border-color: #38bdf8;
+}
+
+form select[multiple] {
+    height: 140px;
+}
+
+form button[type="submit"] {
+    background: #38bdf8;
+    color: #0f172a;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+form button[type="submit"]:hover {
+    background: #7dd3fc;
+}
+
+/* BOTÕES DE AÇÃO */
+.acoes {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.btn {
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn-editar {
+    background: #1d4ed8;
+    color: white;
+}
+
+.btn-apagar {
+    background: #dc2626;
+    color: white;
+}
+
+.btn-novo {
+    background: #38bdf8;
+    color: #0f172a;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-novo:hover { background: #7dd3fc; }
+.btn-editar:hover { background: #2563eb; }
+.btn-apagar:hover { background: #ef4444; }
